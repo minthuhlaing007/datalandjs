@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>String Method</title>
+</head>
+<body>
+
+	
+	<script type="text/javascript">
+
+		let firstName = "john";
+		let lastName = " doe";
+		console.log(firstName);
+		console.log(lastName);
+		console.log(firstName,lastName);
+		console.log(firstName.length);
+
+
+		// Concat(+);
+
+		let fullName = firstName + lastName;
+
+		console.log(fullName);
+
+
+
+		// concat(String); sar kyaung sat pay tar
+		console.log(firstName.concat(lastName));
+		console.log(lastName.concat(firstName));
+		
+
+		// Append (+=) paung pee pyan htae tar
+
+		let name1 = "john doe";
+		let name2 = "alice";
+		console.log(name1+name2);
+		console.log(name1.concat(name2));
+
+		name1 += name2
+		console.log(name1);
+
+
+		let num1 = 10;
+		let num2 = 20;
+
+		// num1 = num1+num2;
+		num1 += num2
+
+		console.log(num1);
+
+		// String is character array in js
+
+		let myfriend = "aung ko ko";
+		console.log(myfriend);
+		console.log(typeof myfriend);
+		console.log(myfriend.length);
+		console.log(myfriend[0]);
+		console.log(myfriend[3]);
+		console.log(myfriend[myfriend.length-1]);
+
+
+
+		// charAt()
+		const nickname = "aung kyaw kyaw";
+		console.log(nickname);
+		console.log(nickname.charAt(5));
+
+
+
+
+		// repeat()
+		const greeting = "hello world ";
+		console.log(greeting.repeat(5));
+
+
+		// include(string);
+		let favcolor = "My fav color is black color.";
+		console.log(favcolor);
+		console.log(favcolor.includes("black"));
+		console.log(favcolor.includes('red'));
+
+
+		let helloworld = new String("hello world");
+		console.log(helloworld);
+
+		// replace(old,new)
+		console.log(favcolor.replace('black','red'));
+		console.log(favcolor.replace('color','colour'));
+
+
+		// startsWith(string);
+		// startsWith(string,index);
+
+		// const sayhi = "Dear U Ba";
+		// console.log(sayhi.startsWith("Dear"));
+		// console.log(sayhi.startsWith("Dear" , 0));
+		// console.log(sayhi.startsWith("U",5));
+
+
+		// endsWith()
+		const saybye = "See you later";
+		console.log(saybye.endsWith("later"));
+
+
+
+		const youSay = "hello aung aung";
+		if(youSay.startsWith("hello")){
+			var iSay = "hi kyaw kyaw";
+		}
+		console.log(`You say ${youSay}, I say ${iSay}`);
+
+
+
+
+
+
+		// substring(index,length) 
+		console.log(favcolor);
+		console.log(favcolor.substring(0,5)+"...");
+
+
+		// Change Case
+		console.log(favcolor.toUpperCase());
+		console.log(favcolor.toLowerCase());
+
+	</script>
+</body>
+</html>

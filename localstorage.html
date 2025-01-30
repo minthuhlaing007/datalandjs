@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Local Storage</title>
+</head>
+<body>
+	
+
+	<script>
+		
+		// => local Storage
+
+		// => Create
+
+			// localStorage.setItem('name','john doe');
+			// localStorage.setItem('age',23);
+			// localStorage.setItem("city","Mandalay");
+
+		// => Update
+
+			// Method 1 
+				// localStorage.setItem('name','aung aung');
+
+			// Method 2 
+				// localStorage.city = "Yangon";
+
+		// => Read
+
+				// Method 1
+
+				// const getName = localStorage.name;
+				// const getAge = localStorage.age;
+				// const getCity = localStorage.city;
+				// console.log(getName, getAge, getCity);
+				// console.log(typeof getName,typeof getAge,typeof getCity);
+
+				// Method 2
+
+				// const getName = localStorage.getItem('name');
+				// const getAge = localStorage.getItem('age');
+				// const getCity = localStorage.getItem('city');
+				// console.log(getName, getAge, getCity);
+				// console.log(typeof getName,typeof getAge,typeof getCity);
+
+
+		// => Delete
+
+			// Method 1 
+				// localStorage.removeItem('name');
+				// localStorage.removeItem('age');
+				// localStorage.removeItem('city');
+
+			// Method 2
+				// localStorage.clear();
+
+
+// ----------------------------------------------------------------------------------------------
+
+
+		// Session storage
+
+		// Create
+		// sessionStorage.setItem('name','hla hla');
+		// sessionStorage.setItem('age',12);
+		// sessionStorage.setItem("city","Singapore");
+
+		// Update
+
+			// Method 1
+		// sessionStorage.setItem('name','alice');
+		// sessionStorage.setItem('age',23);
+		// sessionStorage.setItem('city',"Yangon");
+
+			// Method 2
+		// sessionStorage.name = "aung aung";
+		// sessionStorage.age = 34;
+		// sessionStorage.city = 'America';
+
+
+		// Read
+
+		// method 1
+		// const name = sessionStorage.name;
+		// const age = sessionStorage.age;
+		// const city = sessionStorage.city;
+
+		// console.log(name,age,city);
+		// console.log(typeof name,typeof age,typeof city);
+
+		// method 2
+		// const name = sessionStorage.getItem('name');
+		// const age = sessionStorage.getItem('age');
+		// const city = sessionStorage.getItem('city');
+
+		// console.log(typeof name,typeof age,typeof city);
+		// console.log(name,age,city);
+
+		// Delete
+
+		// Method 1
+
+		// sessionStorage.removeItem('name');
+		// sessionStorage.removeItem('age');
+		// sessionStorage.removeItem('city');
+
+
+		// Method 2
+		sessionStorage.clear();
+
+
+
+	</script>
+</body>
+</html>
+
+
+<!-- 
+
+
+	Database
+	1.temp storage;
+	2.per storage (mysql,mongodb,firebase)
+
+
+ -->
+
+
+ <!-- 
+
+cookies	- 4kb , All windows,when user delete/ timer, browser/server	
+
+localStorage - 5-10-20 Mb(browser depend), All Windows, when user delete, browser
+
+SessionStorage - 5-10-20 Mb(browser depend), private to tab, on tab close, browser
+
+  -->

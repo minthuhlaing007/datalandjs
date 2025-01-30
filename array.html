@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array</title>
+</head>
+<body>
+    
+    <script>
+
+        let girls = new Array("susu" , "lulu","nunu");
+        console.log(girls);
+        console.table(girls);
+
+        const boys = ['minthu','aungthu','zawzaw','aungaung','phokyaw','zayyar','basaing', 200];
+        console.log(boys);
+        console.log(boys.length);
+        console.log(boys.length-1);
+        console.log(boys[boys.length-1]);
+        console.log(typeof boys);
+        console.log(typeof boys[1])
+        console.log(typeof boys[boys.length-1]);
+
+
+
+
+        let myarrs =['hello',1500,true,undefined,null,new Date(),['red','green'],{firstName:"john doe",lastName:'hlaing'},]
+
+        console.table(myarrs);
+        console.log(myarrs[0]);
+        console.log(myarrs[1]);
+        console.log(myarrs[2]);
+        console.log(myarrs[3]);
+        console.log(myarrs[4]);
+        console.log(myarrs[5]);
+        console.log(myarrs[6][0]);
+        console.log(myarrs[6][1]);
+        console.log(myarrs[7].firstName);
+        console.log(myarrs[7].lastName);
+
+
+
+        let colors = ['red','green','blue'];
+        colors = ['rgba','cmyk'];
+        console.log(colors);
+
+
+        let paints = ['red','green',,'blue'];
+        console.log(paints);
+        console.log(paints[2]);
+
+        let names = [];
+        names[0] = "john doe";
+        names[1] = 'aung aung';
+        names[2] = 'su su';
+        names.push("lulu");
+        names.unshift('the rock');
+
+        console.log(names.length);
+        console.log(names[names.length-1]);
+     
+
+
+        let animals = ['cat','dog'];
+        animals[2] = 'owl';
+        animals[3] = 'fish';
+        animals[0] = 'cow';
+        animals[5] = 'tiger';
+
+
+        console.log(animals);
+        console.log(animals.length);
+        console.log(animals[5]);
+        console.log(animals[4]);
+        console.log(animals[6]);
+
+
+        // Nested Array 
+
+        const nestarrs = [['red','green','blue'],['cmyk','rgba','hsla'],['canon','epson',['laser','ink']]];
+
+        console.log(nestarrs);
+        console.table(nestarrs);
+        console.log(nestarrs.length);
+        console.log(nestarrs[0]);
+        console.log(nestarrs[2][2][1]);
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TemplateString</title>
+  </head>
+  <body>
+
+    <ul>
+        <li>Name: Aung Aung</li>
+        <li>Age: 33</li>
+        <li>Job: Web Developer</li>
+        <li>City: Mandalay</li>
+    </ul>
+
+
+
+
+
+    <script type="text/javascript">
+
+        // let name = "aung aung";
+        // console.log(name);
+
+        // var fullName = "kyaw kyaw";
+        // console.log(fullName);
+
+        // let age;
+        // console.log(age);
+        
+        // age = 33;
+        // console.log(age);
+
+
+        // Override lote loa ma ya loa error tat tar
+        // const PI;
+        // PI = 3.14;
+        // console.log(PI);
+
+
+        const name = "john doe";
+        const age = 34;
+        const job = "web designer";
+        const city = "Yangon";
+
+        console.log(name);
+        document.write(name);
+        document.write(age);
+        document.write(job);
+        document.write(city);
+
+
+        // let myListStyle = "<h1>My List Style</h1>";
+        //  myListStyle = "<h1>Hello World</h1>";
+        //  myListStyle = "<h1>Hello Human</h1>";
+
+        // document.write(myListStyle);
+
+
+
+        // Template String (``)
+         let myListStyle = `
+            <ul>
+                <li>name: ${name}</li>
+                <li>age = ${age}</li>
+                <li>job = ${job}</li>
+                <li>city = ${city}</li>
+            </ul>
+            `;
+
+            document.write(myListStyle);
+
+
+
+    </script>
+  </body>
+</html>
